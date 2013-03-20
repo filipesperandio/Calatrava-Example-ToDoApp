@@ -7,6 +7,9 @@
     - Calatrava::Project.current.mobile_web.scripts.each do |filename|
       %script(type="text/javascript" src="#{filename}")
 
+    -%w{bootstrap bootstrap-responsive shell}.each do |filename|
+      %link(type="text/css" rel="stylesheet" media="all" href="styles/#{filename}.css")
+
   %body
     %div#app_container.container
       - Calatrava::Project.current.mobile_web.haml_files.each do |hf|
@@ -14,5 +17,5 @@
 
   :javascript
     $(document).ready(function(){
-      example.converter.start();      
+      todo.start();      
     });

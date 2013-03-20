@@ -4,6 +4,9 @@
     -%w{reset app common device}.each do |filename|
       %link(type="text/css" rel="stylesheet" media="all" href="../styles/#{filename}.css")
 
+    -%w{bootstrap bootstrap-responsive shell}.each do |filename|
+      %link(type="text/css" rel="stylesheet" media="all" href="../styles/#{filename}.css")
+
     -%w{env zepto ICanHaz underscore calatrava bridge shell pageHelper}.each do |filename|
       %script(type="text/javascript" src="../scripts/#{filename}.js")
 
