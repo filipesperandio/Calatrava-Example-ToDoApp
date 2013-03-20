@@ -1,5 +1,0 @@
-public/scripts/calatrava.js
-public/scripts/pageHelper.js
-public/scripts/alert.js
-public/scripts/controller.converter.js
-public/scripts/init.converter.js
