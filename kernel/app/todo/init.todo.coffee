@@ -3,9 +3,9 @@ todo ?= {}
 todo.start = ->
   todo.controller
     views:
-      todo: calatrava.bridge.pages.pageNamed "todo"
+      todoForm: calatrava.bridge.pages.pageNamed "todoForm"
     changePage: calatrava.bridge.changePage
     ajax: calatrava.bridge.request
 
-  calatrava.bridge.changePage "todo"
+  calatrava.bridge.changePage "todoForm"
 

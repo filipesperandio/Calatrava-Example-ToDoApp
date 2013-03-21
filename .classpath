@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="droid/MobileProject/src"/>
+	<classpathentry kind="lib" path="droid/MobileProject/ivy/ivy.jar"/>
+	<classpathentry kind="lib" path="droid/MobileProject/libs/jackson-core-asl-1.9.8.jar"/>
+	<classpathentry kind="lib" path="droid/MobileProject/libs/jackson-mapper-asl-1.9.8-sources.jar"/>
+	<classpathentry kind="lib" path="droid/MobileProject/libs/jackson-mapper-asl-1.9.8.jar"/>
+	<classpathentry kind="lib" path="droid/MobileProject/libs/rhino-1.7R4.jar"/>
+	<classpathentry kind="lib" path="node_modules/jasmine-reporters/ext/jline.jar"/>
+	<classpathentry kind="lib" path="node_modules/jasmine-reporters/ext/js.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

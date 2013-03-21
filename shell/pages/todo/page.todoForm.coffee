@@ -1,8 +1,8 @@
 calatrava.pageView ?= {}
 
-calatrava.pageView.todo = ->
+calatrava.pageView.todoForm = ->
   container = []
-  $page = $('#todo')
+  $page = $('#todoForm')
   el = (sel)-> $("#"+sel, $page)
 
   draw = (task) ->

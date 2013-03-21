@@ -2,21 +2,21 @@ todo ?= {}
 todo.controller = ({views, changePage, ajax}) ->
   tasks = []
   addTask = ->
-    views.todo.get "taskInput", (input) ->
+    views.todoForm.get "taskInput", (input) ->
       task =
         label : input
         done : false
         id : "task" + tasks.length
       tasks.push task
-      views.todo.render tasks
+      views.todoForm.render tasks
 
   taskDone = (id) ->
     _.each tasks, (t) ->
       if(id == t.id)
         t.done = !t.done
-    views.todo.render tasks
+    views.todoForm.render tasks
 
-  views.todo.bind 'submit', addTask
-  views.todo.bind 'taskDone', taskDone
+  views.todoForm.bind 'submit', addTask
+  views.todoForm.bind 'taskDone', taskDone
 
 

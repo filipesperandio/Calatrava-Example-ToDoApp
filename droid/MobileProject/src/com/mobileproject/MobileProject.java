@@ -16,7 +16,7 @@ public class MobileProject extends Activity
 
         Launcher.launchKernel("com.mobileproject", this, getApplication(), new Runnable() {
           public void run() {
-            Launcher.launchFlow("example.converter.start");
+            Launcher.launchFlow("todo.start");
           }
         });
     }

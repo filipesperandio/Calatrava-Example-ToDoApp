@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="bin/dexedLibs/annotations-07e1e6cbb1e3f04a1ebdee2a1d40de01.jar"/>
+	<classpathentry kind="lib" path="bin/dexedLibs/jackson-core-asl-1.9.8-4bab07e87911d3cc14844fb61eab56cd.jar"/>
+	<classpathentry kind="lib" path="bin/dexedLibs/jackson-mapper-asl-1.9.8-483f5d8d31edaca97b8fb8b9e739abfb.jar"/>
+	<classpathentry kind="lib" path="bin/dexedLibs/jackson-mapper-asl-1.9.8-sources-ea5806c5224b2d2da062512949170bae.jar"/>
+	<classpathentry kind="lib" path="bin/dexedLibs/rhino-1.7R4-e98bcb6598a21c0d7fb551c395a33ce8.jar"/>
+	<classpathentry kind="lib" path="ivy/ivy.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-core-asl-1.9.8.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-mapper-asl-1.9.8-sources.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-mapper-asl-1.9.8.jar"/>
+	<classpathentry kind="lib" path="libs/rhino-1.7R4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
