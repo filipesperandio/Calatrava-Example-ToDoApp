@@ -6,13 +6,13 @@ import java.util.List;
 import com.calatrava.CalatravaPage;
 import com.calatrava.shell.WebViewActivity;
 
-@CalatravaPage(name = Todo.PAGE_NAME)
-public class Todo extends WebViewActivity {
-	public static final String PAGE_NAME = "todoForm";
-	
+@CalatravaPage(name = TodoForm.pageName)
+public class TodoForm extends WebViewActivity {
+	public final static String pageName = "todoForm";
+
 	@Override
 	protected String getPageName() {
-		return PAGE_NAME;
+		return pageName;
 	}
 
 	@Override
