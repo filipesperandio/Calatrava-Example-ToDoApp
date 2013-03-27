@@ -17,7 +17,7 @@ public class TodoForm extends WebViewActivity {
 
 	@Override
 	protected List<String> getEvents() {
-		return Arrays.asList("submit", "taskDone");
+		return Arrays.asList("submit", "taskDone", "pageOpened");
 	}
 
 	@Override

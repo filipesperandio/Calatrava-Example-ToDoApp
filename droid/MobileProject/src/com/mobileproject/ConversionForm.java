@@ -1,11 +1,10 @@
 package com.mobileproject;
 
-import com.calatrava.CalatravaPage;
-import com.calatrava.shell.WebViewActivity;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import com.calatrava.CalatravaPage;
+import com.calatrava.shell.WebViewActivity;
 
 @CalatravaPage(name = "conversionForm")
 public class ConversionForm extends WebViewActivity

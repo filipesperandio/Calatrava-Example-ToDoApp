@@ -1,5 +1,6 @@
 package com.calatrava.shell;
 
+import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -22,6 +23,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 import java.util.concurrent.Semaphore;
 
+@SuppressLint("NewApi")
 public abstract class WebViewActivity extends RegisteredActivity {
   private String TAG = WebViewActivity.class.getSimpleName();
 
@@ -120,7 +122,8 @@ public abstract class WebViewActivity extends RegisteredActivity {
     return Color.TRANSPARENT;
   }
 
-  protected void loadPage() {
+  @SuppressLint("NewApi")
+protected void loadPage() {
     PageRegistry.sharedRegistry().registerPage(getPageName(), this);
 
     webView = new WebView(this);
