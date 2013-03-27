@@ -18,5 +18,7 @@ todo.controller = ({views, changePage, ajax}) ->
 
   views.todoForm.bind 'submit', addTask
   views.todoForm.bind 'taskDone', taskDone
+  views.todoForm.bind 'pageOpened', ->
+    views.todoForm.render tasks
 
 
