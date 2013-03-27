@@ -25,23 +25,19 @@ calatrava.pageView.todoForm = ->
   bind: (event, handler) ->
     controllerCallback[event] = handler
     if event == 'submit'
-      el('submit').off('click').on 'click', controllerCallback['submit']
+      el('submit').off('click').on('click', controllerCallback['submit'])
     renderTasks()
 
   render: (_tasks) ->
-    console.log 'rendering', _tasks
     tasks = _tasks if _tasks
     renderTasks()
 
   get: (field) ->
-    console.log 'get'
     $page.find("#" + field).val()
 
   show: ->
-    console.log 'show'
     $page.show()
 
   hide: ->
-    console.log 'hide'
     $page.hide()
 
