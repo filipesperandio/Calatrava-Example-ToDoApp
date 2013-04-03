@@ -1,0 +1,5 @@
+public/scripts/calatrava.js
+public/scripts/pageHelper.js
+public/scripts/alert.js
+public/scripts/controller.todo.js
+public/scripts/init.todo.js
