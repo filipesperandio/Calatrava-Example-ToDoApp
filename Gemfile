@@ -1,4 +1,4 @@
 source :rubygems
 
 gem "rake"
-gem "calatrava", ">= 0.6.3"
+gem "calatrava", ">= 0.6.11"
