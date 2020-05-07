@@ -15,7 +15,7 @@
     "walkdir": "*",
     "request": "*",
     "cssom": "*",
-    "snyk": "^1.95.3"
+    "snyk": "^1.319.1"
   },
   "scripts": {
     "snyk-protect": "snyk protect",

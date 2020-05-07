@@ -1,8 +1,13 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:lodash:20180130':
     - cucumber > cli-table2 > lodash:
         patched: '2018-09-13T08:50:02.421Z'
+  SNYK-JS-LODASH-567746:
+    - cucumber > lodash:
+        patched: '2020-05-07T00:06:58.572Z'
+    - jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-07T00:06:58.572Z'
